@@ -1,0 +1,8 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^m\.32watts\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.m\.32watts\.com$
+RewriteRule ^/?$ "http\:\/\/alignwisesmile\.com\:8080\/digiplan32watts\/index\.jsp" [R=301,L]
+# mod_rewrite starts here

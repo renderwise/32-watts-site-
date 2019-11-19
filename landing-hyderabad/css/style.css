@@ -1,0 +1,1444 @@
+@font-face {
+    font-family: 'museo_sans_rounded500';
+    src: url('../fonts/museosansrounded-500-webfont.woff2') format('woff2'), url('../fonts/museosansrounded-500-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'museo_sans_rounded300';
+    src: url('../fonts/museosansrounded-300-webfont.woff2') format('woff2'), url('../fonts/museosansrounded-300-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'museo_sans_rounded700';
+    src: url('../fonts/museosansrounded-700-webfont.woff2') format('woff2'), url('../fonts/museosansrounded-700-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Gotham */
+
+@font-face {
+    font-family: 'Gotham Light';
+    src: url('../fonts/gotham/GothamLight.eot');
+    src: url('../fonts/gotham/GothamLight.eot?#iefix') format('embedded-opentype'), url('../fonts/gotham/GothamLight.woff2') format('woff2'), url('../fonts/gotham/GothamLight.woff') format('woff'), url('../fonts/gotham/GothamLight.svg#GothamLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url('../fonts/gotham/Gotham-Medium.eot');
+    src: url('../fonts/gotham/Gotham-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/gotham/Gotham-Medium.woff2') format('woff2'), url('../fonts/gotham/Gotham-Medium.woff') format('woff'), url('../fonts/gotham/Gotham-Medium.svg#Gotham-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url('../fonts/gotham/Gotham-Bold.eot');
+    src: url('../fonts/gotham/Gotham-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/gotham/Gotham-Bold.woff2') format('woff2'), url('../fonts/gotham/Gotham-Bold.woff') format('woff'), url('../fonts/gotham/Gotham-Bold.svg#Gotham-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+img {
+    border: none;
+    outline: none;
+    max-width: 100%;
+}
+
+input,
+textarea {
+    border: none;
+    outline: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    margin: 0 !important;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: normal;
+    padding: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+/*-- header --*/
+
+header {
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+header {
+    background: #e9f7fc;
+    box-shadow: none;
+}
+
+.logo {
+    width: 70px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+/* banner style */
+
+.banner_w3pvt {
+    position: relative;
+    z-index: 1;
+}
+
+.banner .overlay {
+    display: none;
+    background: transparent;
+}
+
+.banner .desktop {
+    display: block;
+}
+
+.banner .mobile {
+    display: none;
+}
+
+.banner-info {
+    padding-top: 20em;
+}
+
+.banner-w3layouts-inner {
+    text-align: left;
+    background: #fff;
+    padding: 1em;
+    width: 50%;
+    position: relative;
+    z-index: 99;
+}
+
+.banner-info h3 {
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: #484747;
+    font-weight: 600;
+    line-height: 1.5em;
+    text-transform: capitalize;
+}
+
+.banner-info h4 {
+    color: #f48120;
+    margin: 0;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+.banner-info i {
+    vertical-align: middle;
+}
+
+.overlay {
+    min-height: 40em;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.overlay1 {
+    min-height: 750px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.read,
+.book-appo {
+    padding: 11px 30px;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    background: #4cc2c4;
+}
+
+.read:hover,
+.book-appo {
+    opacity: 0.9;
+}
+
+.book-appo {
+    background: #f54785;
+}
+
+/*-- //banner style --*/
+
+/*-- //banner --*/
+
+.enquiry a {
+    background: rgb(244, 142, 30);
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-family: 'museo_sans_rounded500';
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 23px;
+}
+
+.enquiry a:hover,
+.enquiry a:focus {
+    color: #fff;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.options {
+    padding-bottom: 50px;
+}
+
+.section-04 img {
+    width: 50%;
+}
+
+.options h2 {
+    font-family: 'museo_sans_rounded500';
+    font-size: 40px;
+    color: #564d48;
+    margin: 0 0 40px;
+    padding: 0 0 40px;
+    position: relative;
+}
+
+.options h2:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 250px;
+    margin: auto;
+    height: 2px;
+    background: rgb(244, 142, 30);
+}
+
+.options h3 {
+    font-size: 30px;
+    color: #52c3df;
+}
+
+.options p {
+    width: 60%;
+    display: inline-block;
+    margin: 0 0 40px;
+    font-family: 'Gotham Light';
+    font-weight: 600;
+}
+
+.options h4 {
+    font-family: 'museo_sans_rounded500';
+    text-align: center;
+    color: #564d48;
+    font-size: 26px;
+}
+
+.options h4 span {
+    color: #52c3df;
+}
+
+.options h5 {
+    font-family: 'museo_sans_rounded500';
+    text-align: center;
+    color: #52c3df;
+    font-size: 33px;
+    margin: 20px auto 0;
+}
+
+.option-list li span {
+    margin: 0 0 20px;
+    display: inline-block;
+}
+
+.option-list li h3 {
+    font-family: 'museo_sans_rounded500';
+    font-size: 20px;
+    color: #52c3df;
+    margin: 0 0 10px;
+    text-transform: capitalize;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.option-list {
+    padding: 50px 0 0;
+    text-align: center;
+}
+
+.option-list li {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+}
+
+.option-list li p {
+    width: 80%;
+    font-size: 16px;
+    color: #564d48;
+    font-family: 'museo_sans_rounded300';
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin: 0 auto;
+}
+
+.booknow-btn {
+    background: #f58220;
+    color: #fff;
+    font-family: 'museo_sans_rounded700';
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    padding: 12px 10px;
+    border-radius: 12px !important;
+    text-indent: 0 !important;
+    display: block !important;
+    margin: 20px auto 60px;
+    position: static !important;
+    width: 340px !important;
+    text-transform: uppercase;
+    height: 46px !important;
+    text-align: center;
+}
+
+.booknow-btn:hover,
+.booknow-btn:focus {
+    background: #f58220;
+    color: #fff;
+    box-shadow: 0 0px 9px 2px rgba(0, 0, 0, 0.2);
+}
+
+.section-03 {
+    background: #e9f7fc;
+    padding: 100px 0 0px;
+}
+
+.section-03 .right {
+    flex: 1;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.section-03 h4 {
+    font-size: 46px;
+    color: #f58220;
+    line-height: 62px;
+    text-align: center;
+}
+
+.section-03 .right h4 {
+    font-family: 'museo_sans_rounded500';
+    text-align: left;
+    padding: 0;
+}
+
+.section-03 .right p {
+    font-family: 'Gotham Light';
+    font-size: 18px;
+    line-height: 30px;
+    color: #564d48;
+    padding: 20px 0 0;
+    letter-spacing: 0;
+    font-weight: 600;
+}
+
+.section-03 .custom {
+    padding: 0 0 100px;
+}
+
+.howitworks {
+    padding: 80px 0 0;
+    background: #fff;
+}
+
+.howitworks:after {
+    content: "";
+    background: url(../images/exclamation.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 125px;
+    margin: 60px auto -70px;
+    display: block;
+    z-index: 2;
+    position: relative;
+}
+
+.howitworks ul {
+    margin: 0 0 25px !important;
+}
+
+.section-04 {
+    margin-top: -220px;
+}
+
+.achievements h2 {
+    font-size: 46px;
+    color: #f58220;
+    line-height: 62px;
+    text-align: center;
+    padding: 0 0 80px;
+    background: url(../images/lines.png) no-repeat scroll top 10px left;
+    display: inline-block;
+    width: 590px;
+}
+
+.achievements .left,
+.achievements .right,
+.achievements .medium {
+    width: 33%;
+}
+
+.achievements .right p {
+    text-align: right;
+}
+
+.achievements p {
+    color: #564d48;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: left;
+    margin: 0 0 95px;
+}
+
+.counters {
+    background: #e9f7fc;
+    padding: 100px 0;
+}
+
+.counters li {
+    text-align: center;
+    padding: 0 100px;
+}
+
+.counters li:first-child {
+    padding-left: 0;
+}
+
+.counters li:last-child {
+    padding-right: 0;
+}
+
+.counters li:not(:last-child) {
+    border-right: 1px dashed #363636;
+}
+
+.counters li h2 {
+    font-size: 54px;
+    color: #f48921;
+    font-family: 'museo_sans_rounded700';
+}
+
+.counters li h6 {
+    font-size: 31px;
+    color: #564d48;
+    margin: 5px 0 0;
+}
+
+.aligner-image {
+    background: url(../images/aligner-01.jpg);
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.aligner-image h2 {
+    margin: 0 0 30px;
+    padding: 110px 0 0;
+    color: #f58220;
+    font-size: 42px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'museo_sans_rounded500';
+}
+
+.aligner-image p {
+    font-family: 'Gotham Light';
+    font-size: 16px;
+    line-height: 32px;
+    color: #fff;
+    padding: 0;
+    letter-spacing: 1px;
+    font-weight: 600;
+    width: 33%;
+}
+
+.testimonials {
+    padding: 100px 0;
+    background: url(../images/pattern.png) no-repeat scroll 0 0 / 100%;
+}
+
+.testimonials h2 {
+    font-family: 'museo_sans_rounded500';
+    font-size: 55px;
+    color: #f58220;
+    line-height: 62px;
+    text-align: center;
+    padding: 0 0 50px;
+}
+
+.testimonials p {
+    font-size: 18px;
+    color: #564d48;
+    margin: 0;
+    font-family: 'museo_sans_rounded500';
+    line-height: 28px;
+}
+
+.testimonials .left {
+    flex: 1;
+    margin-right: 20px;
+    background: url(../images/quotes.png) no-repeat scroll left top;
+    padding: 0 0 0 60px;
+    position: relative;
+}
+
+.testimonials .right {
+    width: 60%;
+}
+
+.testimonials .left:after {
+    content: "";
+    background: url(../images/quotes1.png) no-repeat scroll left top;
+    width: 48px;
+    height: 36px;
+    position: absolute;
+    right: 0;
+}
+.fix-call-btn {
+    display: none;
+}
+
+footer {
+    background: #f9f9f9;
+    padding: 60px 0 50px;
+}
+
+footer h4,
+footer h5 {
+    font-size: 14px;
+    color: #564d48;
+    font-family: 'museo_sans_rounded500';
+    line-height: 22px;
+}
+
+footer .social li {
+    margin: 0 5px;
+}
+
+.footer-list li a {
+    color: #564d48;
+    font-family: 'museo_sans_rounded300';
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    line-height: 23px;
+}
+
+footer .social li a {
+    color: #f68121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    border: 2px solid #f68121;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    display: block;
+    text-align: center;
+    line-height: 27px;
+}
+
+footer .social li i {
+    font-size: 17px;
+}
+
+footer .social li a:hover,
+footer .social li a:focus {
+    background: #f68121;
+    color: #fff;
+}
+
+#scroll {
+    position: fixed;
+    right: 50px;
+    bottom: 10px;
+    cursor: pointer;
+    width: 50px;
+    height: 40px;
+    background-color: #f28020;
+    text-indent: -9999px;
+    display: none;
+    border-radius: 15px 15px 0 0;
+}
+
+#scroll span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -12px;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #ffffff;
+}
+
+#scroll:hover {
+    background-color: #f28020;
+    opacity: 1;
+    filter: "alpha(opacity=100)";
+    -ms-filter: "alpha(opacity=100)";
+}
+
+.banner {
+    position: relative;
+    padding: 89px 0 0;
+}
+
+.banner .banner-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    margin: auto;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+.banner .banner-text h2 {
+    color: #564d48;
+    font-family: 'museo_sans_rounded500';
+    font-size: 60px;
+    position: relative;
+    padding: 0;
+    margin: -100px 0 10px;
+}
+
+.banner .banner-text p {
+    color: #52c3df;
+    font-size: 18px;
+}
+
+.banner .banner-text h3 {
+    color: #52c3df;
+    font-size: 25px;
+    font-family: 'museo_sans_rounded500';
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+.nav_section li {
+    padding: 0 5px;
+}
+
+.nav_section {
+    padding-left: 10px;
+}
+
+.nav_section li a span {
+    font-size: 17px;
+}
+
+.nav_section li a {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+}
+
+.banner .banner-text .right {
+    background: #fff;
+    padding: 20px;
+    width: 33%;
+    border-radius: 25px;
+    margin: 0 10px 0 0;
+    box-shadow: 0 2px 9px 2px rgba(0, 0, 0, 0.2);
+}
+
+.banner .banner-text .right form {
+    border: 0;
+    padding: 10px;
+}
+
+.banner .banner-text .right h2 {
+    font-size: 32px;
+    font-family: 'museo_sans_rounded500';
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    color: #f48120;
+}
+
+.banner .banner-text .right h2:after {
+    display: none;
+}
+
+.banner .banner-text .right form input {
+    background: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    margin: 0 0 20px;
+    color: #564d48;
+    width: 100%;
+    border-radius: 0;
+    font-family: 'museo_sans_rounded300';
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.banner .banner-text .right form input[type="submit"],
+.banner .banner-text .right form .submitBtn {
+    margin: auto;
+    width: auto;
+    background: #f48120;
+    border: none;
+    font-family: 'museo_sans_rounded700';
+    color: #fff;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.error-text,
+#valid {
+    color: #309e3f;
+    font-family: 'museo_sans_rounded700';
+    text-align: center;
+    display: block;
+    font-size: 13px;
+}
+
+.howdoes {
+    padding: 10px 0 0;
+}
+
+.howdoes h2 {
+    margin: 0 0 50px;
+    padding: 0 0 20px;
+    color: #f58220;
+    font-size: 40px;
+    position: relative;
+    font-family: 'museo_sans_rounded500';
+}
+
+.howdoes h2:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #f58220;
+    height: 2px;
+    width: 100px;
+    bottom: 0;
+}
+
+.howdoes ul li {
+    width: 24%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.howdoes ul li span {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #f58220;
+    margin: 0 0 10px;
+}
+
+.howdoes ul li h3 {
+    font-size: 16px;
+    width: 100%;
+    display: inline-block;
+    color: #564d48;
+    margin: 0;
+    line-height: 22px;
+    font-family: 'museo_sans_rounded500';
+}
+
+/* Who does it help */
+
+#whoithelps {
+    background: url(../images/pattern.png) no-repeat scroll 0 0 / 100%;
+    background-size: 100%;
+    padding: 50px 0 300px;
+    overflow: hidden;
+}
+
+.twentytwenty-container {
+    border-radius: 20px;
+}
+
+#whoithelps h1 {
+    color: #52bde2;
+    font-family: 'museo_sans_rounded700';
+    font-size: 23px;
+    letter-spacing: 2px;
+    line-height: 46px;
+    margin: 0;
+    padding: 70px 0 0;
+    width: 500px;
+    float: right;
+    text-transform: uppercase;
+}
+
+#whoithelps h1 span {
+    color: #f28020;
+    font-family: 'museo_sans_rounded500';
+    font-size: 60px;
+    display: block;
+}
+
+#whoithelps h2 {
+    color: #f28020;
+    font-family: 'museo_sans_rounded300';
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 70px 0 30px 110px;
+    width: 530px;
+    float: left;
+}
+
+.whoithelps-bar {
+    clear: both;
+    background: #ccebfb;
+    border-radius: 25px;
+    padding: 15px 35px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.whoithelps-bar h3 {
+    color: #f28020;
+    font-family: 'museo_sans_rounded700';
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 10px 0 20px;
+    text-align: center;
+}
+
+.whoithelps-bar .col-sm-3 {
+    padding: 0 7px;
+}
+
+.whoithelps-bar .twentytwenty-overlay {
+    display: none;
+}
+
+.whoithelps-bar .twentytwenty-handle {
+    background: #fff;
+    width: 15px;
+    height: 15px;
+    margin-left: -9px;
+    margin-top: -9px;
+}
+
+.whoithelps-bar .twentytwenty-horizontal .twentytwenty-handle:before {
+    bottom: 0;
+    margin-bottom: 19px;
+}
+
+.whoithelps-bar .twentytwenty-horizontal .twentytwenty-handle:after {
+    margin-top: 13px;
+}
+
+.whoithelps-bar .twentytwenty-left-arrow {
+    margin-left: -14px;
+}
+
+.whoithelps-bar p {
+    font-family: 'museo_sans_rounded300';
+    font-size: 15px;
+    margin: 10px 0 25px;
+    letter-spacing: 0.5px;
+}
+
+.twentytwenty-container {
+    border-radius: 20px;
+}
+
+/* Faq's css */
+
+#faqs {
+    background-size: 100%;
+    padding: 40px 0;
+    background-color: #e8f6fc;
+}
+
+#faqs h1 {
+    text-align: center;
+    color: #f28020;
+    font-family: 'museo_sans_rounded300';
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 40px 0 0;
+}
+
+#faqs h3 {
+    color: #564d48;
+    font-family: 'museo_sans_rounded500';
+    font-size: 15.5px;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+#faqs p {
+    color: #564d48;
+    font-family: 'museo_sans_rounded300';
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    margin: 0 0 15px 17px;
+}
+
+#faqs h2 {
+    color: #f28020;
+    display: block;
+    font-family: 'museo_sans_rounded500';
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin: 15px 0 10px;
+    width: 100%;
+}
+
+#myBtn {
+    color: #564d48;
+    font-family: 'museo_sans_rounded300';
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background: transparent;
+    padding: 0;
+    margin: 20px auto;
+    border: 0;
+    height: 30px;
+    line-height: 20px;
+    width: 100%;
+}
+
+#more {
+    display: none;
+}
+.options:after {
+    content: "";
+    background: url(../images/exclamation.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 125px;
+    margin: 60px auto -115px;
+    display: block;
+    z-index: 2;
+    position: relative;
+}
+
+/* Pricing */
+#pricing-detail {
+    background: url(../images/pattern.png) no-repeat scroll 0 0 / 100%;
+    background-size: 100%;
+    padding: 50px 0 100px;
+    overflow: hidden;
+}
+#pricing-detail h2 {
+    margin: 50px 0 10px;
+    padding: 0 0 20px;
+    color: #f58220;
+    font-size: 40px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: 'museo_sans_rounded500';
+}
+#pricing-detail h5 {
+    background: #ccebfb;
+    border-radius: 10px;
+    color: #f58220;
+    padding: 10px 15px;
+    font-family: 'museo_sans_rounded700';
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    margin: 10px auto;
+}
+#pricing-detail p {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 20px;
+    line-height: 28px;
+}
+
+
+
+@media (max-width:1199px) {
+    .section-03 .d-flex {
+        align-items: flex-start !important;
+    }
+    .section-03 .right {
+        flex: auto;
+    }
+    .achievements .medium {
+        width: 25%;
+    }
+    .achievements p {
+        font-size: 27px;
+    }
+    .counters li {
+        padding: 0 30px;
+    }
+}
+
+@media(max-width:991px) {
+    .banner .banner-text h2 {
+        font-size: 38px;
+    }
+    .banner .banner-text .right h2 {
+        font-size: 20px;
+        padding: 0;
+    }
+    .banner .banner-text .right form input {
+        font-size: 12px;
+    }
+    .option-list {
+        flex-wrap: wrap;
+    }
+    .section-03 .right h4 {
+        font-size: 30px;
+        line-height: normal;
+    }
+    .section-03 .right p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .testimonials .d-flex {
+        align-items: flex-start !important;
+    }
+}
+
+@media(max-width:767px) {
+    .section-03 .d-flex .left {
+        width: 100%;
+        text-align: center;
+    }
+    .banner-w3layouts-inner {
+        width: 100%;
+    }
+    .banner-info {
+        padding-top: 25em;
+    }
+    .banner .desktop {
+        display: none;
+    }
+    .banner .mobile {
+        display: block;
+    }
+    .option-list li {
+        width: 100%;
+    }
+    .howitworks ul {
+        flex-wrap: wrap;
+    }
+    .achievements p {
+        font-size: 20px;
+        line-height: 29px;
+        margin: 0;
+    }
+    .section-04 img {
+        width: 100%;
+    }
+    .aligner-image p {
+        width: 100%;
+    }
+    #whoithelps {
+        background-size: cover;
+        padding: 50px 0 160px;
+    }
+    .testimonials .right iframe {
+        width: 100%;
+        height: 200px;
+    }
+    #whoithelps h1 {
+        width: 100%;
+        font-size: 20px;
+        padding: 30px 0 0;
+    }
+    #whoithelps h2 {
+        width: 100%;
+        padding-left: 0;
+        font-size: 22px;
+        letter-spacing: 0.5px;
+        padding: 10px 0 10px;
+    }
+    #whoithelps h1 span {
+        font-size: 50px;
+    }
+    .whoithelps-bar h3 {
+        font-size: 15px;
+        margin: 10px 0 30px;
+    }
+    .achievements .right {
+        padding: 10px 0;
+    }
+    .achievements .right p {
+        text-align: center;
+    }
+    .achievements p {
+        text-align: center;
+        font-size: 16px;
+        margin: 0 0 15px;
+    }
+    .achievements img {
+        width: 130px;
+    }
+    .banner .banner-text h2 {
+        font-size: 38px;
+    }
+    .banner .banner-text .right h2 {
+        font-size: 20px;
+        padding: 0;
+    }
+    .banner .banner-text .right form input {
+        font-size: 12px;
+    }
+    .option-list {
+        flex-wrap: wrap;
+    }
+    .section-03 .left img {
+        width: 260px;
+    }
+    .section-03 .right h4 {
+        font-size: 24px;
+        line-height: normal;
+    }
+    .section-03 .right p {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 10px 0 0;
+    }
+    .testimonials .d-flex {
+        align-items: flex-start !important;
+    }
+    .banner .banner-text {
+        position: static;
+        background: #e9f7fc;
+        padding: 0 0 20px;
+        margin: -1px 0 0;
+    }
+    .section-03 .d-flex {
+        flex-wrap: wrap;
+        padding: 0 0 5px;
+    }
+    .section-03 h4 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .section-04 {
+        margin-top: -120px;
+    }
+    .section-03 {
+        padding-bottom: 20px;
+    }
+    .howitworks {
+        padding: 30px 0 0;
+    }
+    .howdoes h2 {
+        font-size: 30px;
+        margin: 0 0 20px;
+        padding: 0 0 10px;
+    }
+    .achievements .d-flex {
+        flex-wrap: wrap;
+    }
+    .achievements .left,
+    .achievements .right,
+    .achievements .medium {
+        width: 100%;
+    }
+    .counters li:not(:last-child) {
+        border-right: none;
+        border-bottom: 1px dashed #363636;
+    }
+    .counters ul {
+        flex-direction: column;
+    }
+    .counters ul li {
+        padding: 0 0 30px;
+        margin: 0 0 30px;
+        width: 100%;
+    }
+    .counters {
+        padding: 70px 0 10px;
+    }
+    .testimonials .d-flex {
+        flex-wrap: wrap;
+    }
+    .testimonials .left {
+        flex: auto;
+        padding: 0 0 0 40px;
+        background-size: 30px;
+    }
+    .testimonials .left:after {
+        width: 32px;
+        background-size: 100%;
+    }
+    .testimonials .right {
+        width: 100%;
+        padding: 50px 0 0;
+    }
+    footer {
+        text-align: center;
+        padding: 30px 0;
+    }
+    footer .logo {
+        padding: 0 0 10px;
+    }
+    .footer-list {
+        padding: 0 0 15px;
+        text-align: right;
+    }
+    .footer-list li a {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    footer .social {
+        justify-content: center !important;
+        padding: 10px 0 0;
+    }
+    .achievements h2 {
+        padding: 0;
+        background: none;
+        width: 100%;
+        font-size: 34px;
+    }
+    .testimonials h2 {
+        font-size: 35px;
+        line-height: 30px;
+    }
+    .testimonials {
+        padding: 30px 0;
+    }
+    .testimonials p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .fix-call-btn {
+        display: block;
+        background: #f28020;
+        color: #fff;
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        padding: 10px;
+        text-transform: capitalize;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 5;
+    }
+    .fix-call-btn:hover,
+    .fix-call-btn:focus {
+        color: #fff;
+    }
+    .landing footer {
+        padding: 30px 0 80px;
+    }
+    #pricing-detail p {
+        width: 90%;
+    }
+    #pricing-detail h2 {
+        font-size: 36px;
+        margin: 40px 0 0;
+    }
+    #pricing-detail h5 {
+        width: 90%;
+    }
+    #pricing-detail {
+        padding: 50px 0 60px;
+    }
+}
+
+@media (max-width:640px) {
+    .enquiry a {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .options h2 {
+        font-size: 20px;
+        margin: 0 0 20px;
+        padding: 0 0 20px;
+    }
+    .options h3 {
+        font-size: 16px;
+        margin: 0;
+    }
+    .options h4 {
+        font-size: 18px;
+    }
+    .howdoes {
+        padding-bottom: 0;
+    }
+    .section-03 h4 {
+        font-size: 24px;
+        line-height: 24px;
+        padding: 0;
+    }
+    .howdoes ul li {
+        width: auto;
+        margin: 0 0 10px;
+    }
+    .howdoes ul li h3 {
+        font-size: 13px;
+    }
+    .options p {
+        width: 90%;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 20px;
+        margin: 0 0 25px;
+    }
+    .options h4 span {
+        margin: 0;
+        font-size: 14px;
+    }
+    .option-list li span {
+        margin: 0 0 10px;
+    }
+    .option-list li span img {
+        width: 90px;
+    }
+    .option-list li p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .booknow-btn {
+        font-size: 15px;
+        margin: 10px 0 20px;
+        width: 310px !important;
+    }
+    .section-03 {
+        padding: 50px 0 0;
+    }
+    .section-03 .right {
+        padding-left: 0;
+        margin: 10px 0 0;
+    }
+    .banner-text .container {
+        flex-wrap: wrap
+    }
+    .banner .banner-text .right {
+        width: 100%;
+        margin: 20px 0 0;
+    }
+    header .col {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .nav-list li a {
+        font-size: 11px;
+    }
+    header .logo {
+        text-align: center;
+        width: 20%;
+    }
+    .nav-list li:not(:last-child) {
+        margin: 0;
+    }
+    nav {
+        width: 100%;
+    }
+    .howitworks:after {
+        width: 9px;
+        height: 90px;
+        margin: 20px auto -50px;
+        background-size: 100%;
+    }
+    #faqs {
+        padding: 20px 0;
+    }
+    #faqs h1 {
+        font-size: 37px;
+        padding: 10px 0;
+    }
+    #faqs p {
+        font-size: 14px;
+        line-height: 19px;
+        margin: 2px 0 15px 17px;
+    }
+    #myBtn {
+        margin: 5px auto;
+    }
+    footer .col-xs-4 {
+        float: left;
+        width: 40%;
+    }
+    footer .col-xs-8 {
+        float: left;
+        width: 60%;
+    }
+}

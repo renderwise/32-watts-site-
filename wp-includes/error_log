@@ -1,0 +1,9 @@
+[19-Nov-2018 23:46:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_robots() in /home/render/public_html/wp-includes/template-loader.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/render/public_html/wp-includes/template-loader.php on line 28
+[01-Feb-2019 01:30:01 UTC] PHP Fatal error:  Class 'Walker' not found in /home/render/public_html/wp-includes/class-walker-nav-menu.php on line 17
+[27-Feb-2019 06:37:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/render/public_html/wp-includes/locale.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/render/public_html/wp-includes/locale.php on line 10
